@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 import re
 import PyPDF2
-from result import Result
+from track_results.result import Result
 
 class ResultsParser:
     """Parses the results page for a given track meet and extracts relevant information."""
