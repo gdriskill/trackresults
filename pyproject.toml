@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "track-results"
+version = "0.0.0"
+description = "Filter track meet results to find top performances for a team."
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "PyPDF2"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
